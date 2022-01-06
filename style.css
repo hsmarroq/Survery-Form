@@ -1,0 +1,129 @@
+body {
+  background: #008040;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+#title {
+  color: #cccc00;
+  font-family: Impact, fantasy;
+  text-shadow: 0.1rem 0.1rem 0.05rem #333;
+}
+
+#description {
+  color: #fff;
+  font-family: Arial sans-serif;
+}
+
+/* Form */
+#number {
+  width: 145px;
+}
+
+#container {
+  margin-left: 25%
+}
+
+form {
+  background: #d6f5d6;
+  border-radius: 5px;
+  padding: 30px;
+  max-width: 60%;
+  font-size: 20px; 
+}
+
+/* Form Name */
+#name-label {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+#name {
+  width: 98%;
+}
+
+#name:focus {
+ outline-color: #008040;
+}
+
+/* Form Email */
+#email-label {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+#email {
+  width: 98%;
+}
+
+#email:focus {
+ outline-color: #008040;
+}
+/* Form Age */
+#number-label {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+#number {
+  width: 98%;
+}
+
+#number:focus {
+ outline-color: #008040;
+}
+/* Form Dropdown */
+#dropdown-label {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+#dropdown {
+  width: 98%;
+}
+
+#dropdown:focus {
+ outline-color: #008040;
+}
+/* Form Radio */
+#recommend {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+/* Form Checkbox */
+#feature {
+  line-height: 35px;
+  font-family: sans-serif;
+}
+
+/* Form Comments */
+#text-area {
+  line-height: 35px;
+  height: 50%;
+  font-family: sans-serif;
+}
+
+#text-area1 {
+  height: 150px;
+  width: 100%;
+}
+
+#text-area1:focus {
+ outline-color: #008040;
+}
+/* Form Submit Button */
+#submit {
+ margin-top: 25px;
+ width: 100%;
+ border-radius: 5px;
+}
+
+#submit:hover {
+  background: #008040;
+  color: #fff;
+  border-radius: 5px;
+}

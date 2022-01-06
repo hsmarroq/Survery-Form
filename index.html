@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Survey <Form></Form></title>
+</head>
+<body>
+  <header>
+    <h1 id="title">Anchor International Security Corporation<br>Survery Form
+</h1>
+      <p id="description">Thank you for taking the time to help us improve
+
+</p>
+    </header>
+    <main>
+      <div id="container">
+        <form id="survey-form">
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" name="name" placeholder="Enter your name" required id="name">
+
+        <!--    Email      -->
+          <p>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" placeholder="Enter Email" name="email" id="email" required></p>
+
+        <!-- Age --> 
+          <p>
+      <label for="number" id="number-label">Age (optional)</label><br> 
+	          <input id="number" name="number" type="number" placeholder="Age" min="18" max="100"></p>
+
+        <!--  Dropdown list   -->
+          <p>
+      <label for="dropdown" id="dropdown-label">Which option best describes your current role?</label><br>         
+	          <select id="dropdown">
+      <option value="" disabled selected>Select current role</option>
+            
+      <option value="employee">Employee</option>
+            
+      <option value="customer">Customer</option>
+	          </select></p>
+   
+        <!--    Radio Buttons      -->
+      <label for="recommend" id="recommend">Would you recommend us to a friend?</label><br>
+      
+        <input id="recommend" type="radio" name="recommend" value="definitely">
+        <label for="definitely">Definitely</label><br>
+      
+        <input id="recommend" type="radio" name="recommend" value="maybe">
+        <label for="maybe">Maybe</label><br>
+        
+        <input id="recommend" type="radio" name="recommend" value="not-sure">
+        <label for="not-sure">Not Sure</label><br> 
+        
+        <br>
+        
+        <!--     Checkbox     -->
+        <label for="feature" id="feature">What is your favorite feature of Anchor International Security?</label><br>
+        
+          <input id="feature" type="checkbox" name="feature" value="quality">
+          <label for="quality">Quality</label><br>
+        
+          <input id="feature" type="checkbox" name="feature" value="service">
+          <label for="service">Service</label><br>
+        
+          <input id="feature" type="checkbox" name="feature" value="price">
+          <label for="price">Price</label><br>
+        
+          <input id="feature" type="checkbox" name="feature" value="management">
+          <label for="management">Management</label><br>
+        
+          <input id="feature" type="checkbox" name="feature" value="staff">
+          <label for="staff">Staff</label><br>
+        
+          <br>
+
+          <!--  Comments    -->
+          <label for="text-area" id="text-area">Any comments or suggestions?</label><br>
+          <textarea id="text-area1" name="text-area" placeholder="Enter your comment here..."></textarea><br>
+
+        <!--   Submit   -->
+          <input type="submit" id="submit">
+        </form>
+      </div>
+    </main>
+</body>
+</html>
